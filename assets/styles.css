@@ -25,32 +25,35 @@ body{
 }
 
 .header{
-  background: #f96500 url(images/bg-header.png) no-repeat center 120px;
   background-attachment: fixed;
   color: white;
-}
-
-.header-bg{
-  background: url(images/dot-grid.png);
-  min-height: 770px;
+  min-height: 870px;
 }
 
 .logo{
-  margin-top: 40px;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .banner h1{
-  font-size: 65px;
+  color: #432428;
+  font-size: 50px;
   font-family: "Futura Md BT";
-  line-height: 80px;
+  line-height: 50px;
   margin-top: 140px;
+  padding-top: 30px;
+  text-transform: uppercase;
   text-align: center;
+  background: url(images/stars.png) no-repeat;
 }
 
 .banner p{
-  font-size: 30px;
+  color: #432428;
+  font-size: 25px;
   font-family: "Serifa Lt BT" sans-serif;
   text-align: center;
+  padding-bottom: 30px;
+  background: url(images/stars.png) no-repeat center bottom;
 }
 
 .cta{
