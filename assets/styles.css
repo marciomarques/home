@@ -219,8 +219,8 @@ section h2{
   min-height: 130px;
 }
 
-.about-us{
-
+.about-us img{
+	margin-top: 40px;
 }
 
 .about-us p{
