@@ -128,7 +128,7 @@ section h2{
 }
 
 .jobs{
-  background: #222222 url(images/dot-grid.png);
+  background: white url(images/dot-grid-claro.png);
   background-attachment: fixed;
 }
 
@@ -136,19 +136,32 @@ section h2{
   margin-top: 45px;
 }
 
-.jobs .icons h3{
-  font-size: 18px;
-  color: white;
+.jobs h2{
+  margin: 60px 0;
+}
+
+.jobs .icons p{
+  font-size: 25px;
+  line-height: 25px;
+  color: #432428;
   text-align: center;
 }
 
-.one{
-  padding-left: 60px;
+.jobs .icons p.details{
+  font-size: 18px;
+  line-height: 18px;
+  color: #432428;
+  text-align: center;
 }
 
-.shelv{
-  min-height: 480px;
-  background: url(images/shelv.png) no-repeat center bottom;
+.jobs .icons img{
+  margin-top: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.jobs-mais{
+  background: #222 url(images/bg-interface.png) repeat-x center center;
+  background-attachment: fixed;
 }
 
 .contact p{
